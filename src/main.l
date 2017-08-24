@@ -1,6 +1,5 @@
 %{
 #include <string.h>
-
 %}
 
 
@@ -13,9 +12,9 @@ DOMINIO {POSSIVEIS_A_DIREITA}
 
 %%
 
-{USUARIO}[^_. -][@]{DOMINIO}[-][ ] ;
+{USUARIO}{CARACTERES_ESPECIAIS}[@]{DOMINIO}[-_][ ] ;
 
-{USUARIO}[^_. -][@]{DOMINIO} {
+{USUARIO}{CARACTERES_ESPECIAIS}[@]{DOMINIO}(^-)* {
 	printf ("%s\n", yytext);
 }
  
