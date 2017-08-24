@@ -1,22 +1,4 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @Guipupio
- Sign out
- Watch 1
-  Star 1
-  Fork 23 EAxxx/emailscrapper
- Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights 
-Branch: master Find file Copy pathemailscrapper/test.sh
-066c608  4 days ago
-@tiagoft tiagoft Script de teste foi corrigido
-1 contributor
-RawBlameHistory    
-67 lines (52 sloc)  1.58 KB
+
 # Script para testes de unidade automaticos
 
 # Configuracao: escolhe se o programa retonara mensagens teste-a-teste
@@ -82,16 +64,3 @@ fi;
 if [ $verbose -eq 0 ]; then
   echo $indice
 fi;
-
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
